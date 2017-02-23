@@ -1,0 +1,111 @@
+/*-----------------------------------*/
+/* Base Styling                      */
+/*-----------------------------------*/
+
+body {
+  background: aliceblue;
+}
+
+span {
+  font-size: 20px;
+}
+
+form input {
+  width: 50%;
+  padding: 10px;
+}
+
+form button {
+  padding: 12px;
+}
+
+/*-----------------------------------*/
+/* Chat Messages Window Styling      */
+/*-----------------------------------*/
+
+.message {
+  padding: 8px 0;
+}
+
+.message:nth-child(even) .msgText {
+  background: lightgrey;
+}
+
+.message:nth-child(odd) .msgText {
+  background: lightblue;
+}
+
+.msgText {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px 15px;
+}
+
+.messages-box {
+  background: aliceblue;
+  border-radius: 10px;
+  border-style: inset;
+  border-width: 1px;
+  border-color: black;
+  padding: 20px;
+}
+
+.msgForm {
+  margin: 10px 0;
+}
+
+.msgForm input {
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.msgForm input:focus {
+  outline: none;
+}
+
+.msgForm button {
+  margin: 0 10px;
+  padding: 12px;
+  border-style: none;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+/*-----------------------------------*/
+/* Login Box Styling                 */
+/*-----------------------------------*/
+.loginForm {
+  background: white;
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginBtn {
+  padding: 12px;
+  margin: 35px 0 0px 0;
+  padding: 1.05rem 2.75rem;
+  color: #00bcd4;
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 12rem;
+  border: .2rem solid lightblue;
+  -webkit-transition: color .3s,border .3s;
+  transition: color .3s,border .3s;
+}
+
+.loginInput {
+  width: 50%;
+  padding: 12px;
+  text-size-adjust: 20px;
+  font-size: 17px;
+  border: .2rem solid lightblue;
+  text-align: center;
+}
