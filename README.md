@@ -1,6 +1,4 @@
 # socket-chat
-
-![chat dialog screen](https://github.com/pdcavanagh/socket-chat/chatDialog.png)
 ##React based chat application using socket.io
 
 This application is a demonstration of using React to design the UI for a simple chat application that uses websockets to handle messaging and announcements.
@@ -12,10 +10,9 @@ This application is a demonstration of using React to design the UI for a simple
 
 `node server.js`
 
-
 ## React Design
 
-![chat dialog screen](https://github.com/pdcavanagh/socket-chat/chatUI.png)
+![ui deconstruction](https://github.com/pdcavanagh/socket-chat/blob/master/chatUI.png)
 
 Component based design
 
@@ -40,12 +37,14 @@ Component based design
 ### 
 The UI is based on two presentations: 1) the login screen and 2) the chat interface.
 
-![chat dialog screen](https://github.com/pdcavanagh/socket-chat/loginForm.png)
+![login form](https://github.com/pdcavanagh/socket-chat/blob/master/loginForm.png)
 
 Upon loading the application, the client see the login screen that requests a username. The LoginForm component submit 
 calls an App prop function returning the user name to the App component and two states are updated: `isLoggedIn` and `username`.
 Based on the change in the `isLoggedIn` state, the `render()` method of the App component conditionally renders the 
 chat interface instead of the login.
+
+![chat dialog screen](https://github.com/pdcavanagh/socket-chat/blob/master/chatDialog.png)
 
 ## socket.io Design
 
