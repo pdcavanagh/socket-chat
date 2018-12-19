@@ -1,4 +1,6 @@
 # socket-chat
+![Socket-chat github dependency status](https://david-dm.org/pdcavanagh/socket-chat.svg)
+
 ##React based chat application using socket.io
 
 This application is a demonstration of using React to design the UI for a simple chat application that uses websockets to handle messaging and announcements.
