@@ -1,5 +1,5 @@
 # socket-chat
-![Socket-chat github dependency status](https://david-dm.org/pdcavanagh/socket-chat.svg)
+[![Socket-chat github dependency status](https://david-dm.org/pdcavanagh/socket-chat.svg)](https://david-dm.org/pdcavanagh/socket-chat)
 
 ##React based chat application using socket.io
 
